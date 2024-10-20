@@ -8,4 +8,8 @@ class NetworkInfo
     public:
         NetworkInfo();
         ~NetworkInfo();
+
+        std::string ipInfo();
+        std::string getInrernalIP()const;
+        std::string getExternalIP()const;
 };

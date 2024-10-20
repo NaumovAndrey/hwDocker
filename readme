@@ -10,4 +10,11 @@ naumov@pc-home:~/Documents/skillbox/docker/hwDocker$ id naumov
 uid=1000(naumov) gid=1000(naumov) группы=1000(naumov),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),120(lpadmin),133(lxd),134(samba
 share),137(ubridge),138(libvirt),142(docker)
 
-
+naumov@pc-home:~/Documents/skillbox/docker/hwDocker/src$ g++ -std=c++2a -I ../include ./*.cpp -o ipinfo                                 
+naumov@pc-home:~/Documents/skillbox/docker/hwDocker/src$ ll                                                                             
+drwxrwxr-x 2 naumov naumov  4096 окт 21 00:05 ./                                                                                        
+drwxrwxr-x 6 naumov naumov  4096 окт 21 00:03 ../                                                                                       
+-rwxrwxr-x 1 naumov naumov 42736 окт 21 00:05 ipinfo*                                                                                   
+-rw-rw-r-- 1 naumov naumov   231 окт 20 23:59 main.cpp                                                                                  
+-rw-rw-r-- 1 naumov naumov  1323 окт 21 00:00 NetworkInfo.cpp                                                                           naumov@pc-home:~/Documents/skillbox/docker/hwDocker/src$ ./ipinfo                                                                       
+Внутренний ip: 192.168.1.144
