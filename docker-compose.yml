@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+    test_dc:
+        build: .
+        volumes:
+            - ./src:/src
+            - ./include:/include
+        command: ./build/proga
+        stdin_open: true
+        tty: true
